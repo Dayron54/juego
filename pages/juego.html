@@ -13,19 +13,21 @@
 </head>
 
 <body>
-    <div class="text-center">
-        <h1>Juego adivina el número</h1>
-        <p>Hemos seleccionado un numero aleatrorio entre 1 y 100. Fíjate si lo puedes adivinar en 10 turnos o menos.
-            Vamos a decirte si tu número es más alto o más bajo.</p>
-        <div class="adivina">
-            adivina el número:
-            <input type="text" id="numIntento">
-            <button class="btn btn-light rounded-pill" id="btnAdivinar" ><i class="fa-solid fa-circle-question"></i> Adivinar</button>
-        </div>
-        <div>
-            <p id="intentos"></p>
-            <p id="ultimoResultado"></p>
-            <p id="altoBajo"></p>
+    <div class="container">
+        <div class="text-center">
+            <h1>Juego adivina el número</h1>
+            <p>Hemos seleccionado un numero aleatrorio entre 1 y 100. Fíjate si lo puedes adivinar en 10 turnos o menos.
+                Vamos a decirte si tu número es más alto o más bajo.</p>
+            <div class="adivina">
+                adivina el número:
+                <input type="text" id="numIntento">
+                <button class="btn btn-light rounded-pill" id="btnAdivinar" ><i class="fa-solid fa-circle-question"></i> Adivinar</button>
+            </div>
+            <div id="volver">
+                <p id="intentos"></p>
+                <p id="ultimoResultado"></p>
+                <p id="altoBajo"></p>
+            </div>
         </div>
 
     </div>

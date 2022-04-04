@@ -43,7 +43,6 @@ function verificarIntento()
     numIntento.value = "";
     numIntento.focus();
 }
-
 function finalizarJuego()
 {
     numIntento.disabled = true;
@@ -53,6 +52,7 @@ function finalizarJuego()
     btnReset.textContent = "Iniciar el juego de nuevo";
     document.body.append(btnReset);
     btnReset.addEventListener("click",reiniciar);
+    volver.appendChild(btnReset);
 }
 
 function reiniciar()
@@ -69,5 +69,3 @@ function reiniciar()
 }
 
 btnAdivinar.addEventListener("click", verificarIntento);
-
-
