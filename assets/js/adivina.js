@@ -43,6 +43,7 @@ function verificarIntento()
     numIntento.value = "";
     numIntento.focus();
 }
+
 function finalizarJuego()
 {
     numIntento.disabled = true;
